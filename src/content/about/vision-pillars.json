@@ -1,0 +1,5 @@
+[
+  { "title": "Reproducibility by default", "text": "Every pipeline records exactly what produced a result, so it can be defended and rerun years later.", "icon": "compass" },
+  { "title": "Infrastructure that disappears", "text": "Compute and storage should scale to the workload without a dedicated team babysitting clusters.", "icon": "layers" },
+  { "title": "Evidence over marketing", "text": "We publish the methodology behind our own claims, and expect to be checked.", "icon": "shield" }
+]

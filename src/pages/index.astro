@@ -1,0 +1,79 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import StatReadout from "../components/StatReadout.astro";
+import { site } from "../config/site";
+
+import heroDescriptionRaw from "../content/home/hero-description.txt?raw";
+import whyNowTitle from "../content/home/why-now-title.txt?raw";
+import whyNowDescription from "../content/home/why-now-description.txt?raw";
+import pillars from "../content/home/pillars.json";
+import columns from "../content/home/columns.json";
+
+// {{name}} in a .txt file gets swapped for the real site name at build time
+const heroDescription = heroDescriptionRaw.trim().replace(/\{\{name\}\}/g, site.name);
+---
+
+<Layout title="Home">
+  <section class="relative overflow-hidden mx-auto max-w-6xl px-5 md:px-8 pt-16 md:pt-24 pb-12 fade-up text-center">
+    <!-- Background layer: sits behind the content, ignored by screen readers -->
+    <div class="absolute inset-0 -z-10" aria-hidden="true">
+      <div class="absolute hero-bg-glow-teal rounded-full"></div>
+      <div class="absolute hero-bg-glow-blue rounded-full"></div>
+      <div class="absolute inset-0 hero-bg-grid"></div>
+    </div>
+
+    <h1 class="font-display text-4xl md:text-4xl font-semibold max-w-3xl mx-auto leading-[1.05]">
+      {site.tagline}
+    </h1>
+    <p class="mt-6 text-fog text-lg max-w-6xl mx-auto leading-relaxed text-justify">
+      {heroDescription}
+    </p>
+    <div class="mt-8 flex flex-wrap justify-center gap-3">
+      <a href="/solutions" class="rounded-lg bg-teal text-ink font-medium px-5 py-3 hover:opacity-90 transition-opacity">
+        Explore Solutions
+      </a>
+      <a href="/contact" class="rounded-lg border border-line px-5 py-3 text-paper hover:border-teal/60 transition-colors">
+        Start a conversation
+      </a>
+    </div>
+    <!--
+    <div class="mt-124">
+      <StatReadout />
+    </div> -->
+  </section>
+
+  <section class="mx-auto max-w-6xl px-5 md:px-8 py-16 text-center">
+
+    <h2 class="font-display text-2xl md:text-3xl font-semibold mb-5 max-w-6xl mx-auto">
+      {whyNowTitle.trim()}
+    </h2>
+    <p class="text-fog leading-relaxed text-justify">
+      {whyNowDescription.trim()}
+    </p>
+    <div class="tick-rule mt-16"></div>
+  </section>
+
+  <section class="mx-auto max-w-6xl px-5 md:px-8 py-16">
+    <div class="flex items-baseline justify-between mb-8">
+      <h2 class="font-display text-4xl font-semibold text-center">Where we work</h2>
+      <a href="/solutions" class="text-sm text-teal hover:underline">All solutions →</a>
+    </div>
+    <div class="grid md:grid-cols-3 gap-5">
+      {pillars.map((p) => <Card {...p} />)}
+    </div>
+  </section> 
+
+  <section class="mx-auto max-w-6xl px-5 md:px-8 py-16">
+    <div class="tick-rule mb-16"></div>
+    <div class="grid md:grid-cols-3 gap-8">
+      {columns.map((c) => (
+        <div>
+          <h2 class="font-display text-2xl font-semibold mb-3">{c.title}</h2>
+          <p class="text-fog leading-relaxed">{c.description}</p>
+          <a href={c.href} class="inline-block mt-4 text-teal text-sm hover:underline">{c.linkText} →</a>
+        </div>
+      ))}
+    </div>
+  </section>
+</Layout>

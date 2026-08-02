@@ -1,0 +1,111 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Card from "../../components/Card.astro";
+import Icon from "../../components/icons/Icon.astro";
+import { site } from "../../config/site";
+
+import heroTitleRaw from "../../content/about/hero-title.txt?raw";
+import heroDescriptionRaw from "../../content/about/hero-description.txt?raw";
+import missionTitle from "../../content/about/mission-title.txt?raw";
+import missionIntroRaw from "../../content/about/mission-intro.txt?raw";
+import visionTitle from "../../content/about/vision-title.txt?raw";
+import visionIntro from "../../content/about/vision-intro.txt?raw";
+import visionPillars from "../../content/about/vision-pillars.json";
+import expertiseTitle from "../../content/about/expertise-title.txt?raw";
+import expertiseIntro from "../../content/about/expertise-intro.txt?raw";
+import expertiseDomains from "../../content/about/expertise-domains.json";
+
+// {{name}} in a .txt file gets swapped for the real site name at build time
+const fill = (text: string) => text.trim().replace(/\{\{name\}\}/g, site.name);
+
+const heroTitle = fill(heroTitleRaw);
+const heroDescription = fill(heroDescriptionRaw);
+const missionIntro = fill(missionIntroRaw);
+---
+
+<Layout title="About" description={`Mission, vision, and scientific expertise behind ${site.name}.`}>
+  <section class="mx-auto max-w-6xl px-5 md:px-8 pt-14 pb-10 fade-up text-center">
+    <h1 class="text-4xl md:text-4xl font-semibold max-w-3xl mx-auto text-center">{heroTitle}</h1>
+    <p class="mt-5 text-fog text-lg max-w-6xl mx-auto text-justify">{heroDescription}</p>
+    <div class="tick-rule mt-10"></div>
+  </section>
+
+  <!-- Mission & Vision -->
+  <section class="mx-auto max-w-6xl px-5 md:px-8 py-14">
+    <div class="grid md:grid-cols-2 gap-10">
+      <div id="mission" class="scroll-mt-24">
+        <p class="ref-tag text-2xl mb-4 text-center">MISSION</p><br>
+        <h2 class="font-display text-2xl md:text-3xl font-semibold mb-6 text-center">
+          {missionTitle.trim()}
+        </h2>
+        <p class="text-fog text-justify leading-relaxed">
+          {missionIntro}
+        </p>
+      </div>
+      <div id="vision" class="scroll-mt-24">
+        <p class="ref-tag text-2xl mb-4 text-center">VISION</p><br>
+        <h2 class="font-display text-2xl md:text-3xl font-semibold mb-6 text-center">
+          {visionTitle.trim()}
+        </h2>
+        <p class="text-fog text-justify leading-relaxed">
+          {visionIntro.trim()}
+        </p>
+      </div>
+    </div>
+
+    <div class="grid md:grid-cols-3 gap-6 mt-10">
+      {visionPillars.map((p) => (
+        <div class="panel rounded-xl p-6">
+          <div class="w-fit mx-auto rounded-lg bg-teal/10 p-2.5 text-teal mb-3">
+            <Icon name={p.icon} class="w-6 h-6" />
+          </div>
+          <h3 class="font-display text-lg mb-2 text-center">{p.title}</h3>
+          <p class="text-fog text-sm leading-relaxed text-justify">{p.text}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <div class="mx-auto max-w-6xl px-5 md:px-8"><div class="tick-rule"></div></div>
+
+  <!-- Scientific Expertise -->
+  <section id="expertise" class="mx-auto max-w-6xl px-5 md:px-8 py-14 scroll-mt-24">
+    <p class="ref-tag text-2xl mb-4 text-center">SCIENTIFIC EXPERTISE</p>
+    <h2 class="font-display text-2xl md:text-3xl font-semibold mb-3 max-w-2xl mx-auto text-center">
+      {expertiseTitle.trim()}
+    </h2>
+    <p class="text-fog max-w-6xl mx-auto mb-8 text-justify">
+      {expertiseIntro.trim()}
+    </p>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+      {expertiseDomains.map((d) => (
+        <div class="panel rounded-xl p-6">
+          <div class="w-fit mx-auto rounded-lg bg-teal/10 p-2.5 text-teal mb-3">
+            <Icon name={d.icon} class="w-6 h-6" />
+          </div>
+          <h3 class="font-display text-base mb-3 text-center">{d.title}</h3>
+          <p class="text-fog text-sm leading-relaxed text-justify">{d.text}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <!-- Links out to the two remaining About sub-pages 
+  <section class="mx-auto max-w-6xl px-5 md:px-8 pb-20">
+    <div class="tick-rule mb-10"></div>
+    <div class="grid md:grid-cols-2 gap-5">
+      <Card
+        title="Publications"
+        description="Selected research from our team."
+        href="/about/publications"
+        centered
+      />
+      <Card
+        title="Collaborators"
+        description="Institutions and teams we work alongside."
+        href="/about/collaborators"
+        centered
+      />
+    </div>
+  </section> -->
+</Layout>

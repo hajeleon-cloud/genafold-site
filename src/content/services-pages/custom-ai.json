@@ -1,0 +1,12 @@
+{
+  "pageTitle": "Custom AI",
+  "metaDescription": "Model development for a specific prediction or design problem.",
+  "heroTitle": "A model built for your target or host organism, not a generic one bent to fit it.",
+  "heroDescription": "For programs with a specific prediction or design task \u2014 a target family, a modality, an enzyme class, a host organism, an endpoint \u2014 where an off-the-shelf model doesn't quite match the data or the question.",
+  "capabilities": [
+    "Model development scoped to one specific prediction or design problem",
+    "Training on your proprietary or partner datasets, kept private to your project",
+    "Evaluation against your own experimental ground truth",
+    "Deployment into your existing systems, not a standalone tool nobody uses"
+  ]
+}

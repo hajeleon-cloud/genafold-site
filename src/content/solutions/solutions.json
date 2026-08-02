@@ -1,0 +1,8 @@
+[
+  { "title": "Disease Target & Biomarker Discovery", "description": "Turn multi-omics signal into targets and biomarkers you can defend.", "href": "/solutions/disease-target-biomarker-discovery", "icon": "network" },
+  { "title": "Protein & Enzyme Design", "description": "From structure prediction to designed binders and biocatalysts — backbone to sequence.", "href": "/solutions/protein-enzyme-design", "icon": "molecule" },
+  { "title": "Cell Factory Engineering", "description": "AI-guided strain and pathway design for production you can scale.", "href": "/solutions/cell-factory-engineering", "icon": "flask" },
+  { "title": "Variant & Mutation-Effect Prediction", "description": "Know which mutations matter before you run the assay.", "href": "/solutions/variant-mutation-effect-prediction", "icon": "dna" },
+  { "title": "Virtual Screening & Lead Optimization", "description": "Docking, ADME/Tox filtering, and MD validation in one pipeline.", "href": "/solutions/virtual-screening-lead-optimization", "icon": "compass" },
+  { "title": "Cloud & Compute Infrastructure", "description": "Infrastructure that scales with the screen, not the calendar.", "href": "/solutions/cloud-compute-infrastructure", "icon": "cloud" }
+]

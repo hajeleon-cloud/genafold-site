@@ -1,0 +1,8 @@
+[
+  { "title": "Genomics & Sequencing", "text": "Variant calling, annotation, and cohort-scale analysis pipelines.", "icon": "dna" },
+  { "title": "Structural Biology", "text": "Protein structure prediction, docking, and design workflows.", "icon": "molecule" },
+  { "title": "Machine Learning", "text": "Model training, evaluation, and deployment for scientific applications.", "icon": "network" },
+  { "title": "Cloud & HPC", "text": "Distributed compute architecture for bursty, data-heavy research workloads.", "icon": "cloud" },
+  { "title": "Regulatory & Compliance", "text": "Audit-ready pipelines for clinical and regulated research settings.", "icon": "shield" },
+  { "title": "Data Engineering", "text": "Ingestion, storage, and lineage tracking for large scientific datasets.", "icon": "database" }
+]

@@ -1,0 +1,1 @@
+Our team pairs structural biologists, protein and enzyme engineers, synthetic biologists, and computational chemists with systems engineers, so pipelines are built by people fluent in both the biology gene regulation, protein interaction networks, metabolic pathways, context-dependent phenotype and the machine learning that predicts and designs across all of it.

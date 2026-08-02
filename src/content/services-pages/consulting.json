@@ -1,0 +1,20 @@
+{
+  "pageTitle": "Consulting",
+  "metaDescription": "Scoping and architecture guidance before you commit to a build.",
+  "heroTitle": "Get the discovery or engineering strategy right before you commit a program.",
+  "heroDescription": "Short, focused engagements to pressure-test a target, biomarker, protein/enzyme design, strain-engineering, or pipeline plan before it becomes a multi-year program.",
+  "steps": [
+    {
+      "title": "Scoping session",
+      "text": "A working session to understand your current pipeline, data, and constraints."
+    },
+    {
+      "title": "Architecture review",
+      "text": "An assessment of what to keep, what to replace, and where the risk actually is."
+    },
+    {
+      "title": "Recommendation",
+      "text": "A written plan you can act on with us, another vendor, or your own team."
+    }
+  ]
+}

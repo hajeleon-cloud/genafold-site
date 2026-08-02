@@ -1,0 +1,18 @@
+{
+  "eyebrowSuffix": "PROTEIN & ENZYME DESIGN",
+  "pageTitle": "Protein & Enzyme Design",
+  "metaDescription": "From structure prediction to designed binders and biocatalysts.",
+  "heroTitle": "From structure prediction to designed binders and biocatalysts backbone to sequence.",
+  "heroDescription": "Structure prediction and generative design models the same class of tools recognized by the 2024 Nobel Prize in Chemistry for computational protein design now take a program from a target structure to a designed binder, therapeutic protein, or novel enzyme in silico before the first bench experiment. We build and validate these pipelines for your application: antibodies and peptides, or industrial biocatalysts with improved activity, stability, or substrate specificity.",
+  "capabilities": [
+    "Structure prediction and generative backbone design for novel proteins",
+    "Binder and antibody design workflows, from target structure to candidate sequences",
+    "Enzyme engineering for improved activity, stability, or substrate specificity",
+    "In silico validation before committing to bench synthesis"
+  ],
+  "relatedText": "Designed proteins and enzymes often feed directly into cell factory engineering.",
+  "relatedLinks": [
+    { "text": "Cell Factory Engineering", "href": "/solutions/cell-factory-engineering" },
+    { "text": "Start a conversation", "href": "/contact" }
+  ]
+}

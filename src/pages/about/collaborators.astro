@@ -1,0 +1,28 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import PageHero from "../../components/PageHero.astro";
+
+import heroDescription from "../../content/about-collaborators/hero-description.txt?raw";
+import collaborators from "../../content/about-collaborators/collaborators.json";
+---
+
+<Layout title="Collaborators" description="Institutions and teams we work alongside.">
+  <PageHero
+    eyebrow="ABOUT · COLLABORATORS"
+    title="Built alongside the programs that use it."
+    description={heroDescription.trim()}
+  />
+  <section class="mx-auto max-w-6xl px-5 md:px-8 pb-20">
+    <div class="grid md:grid-cols-2 gap-4">
+      {collaborators.map((c) => (
+        <div class="panel rounded-xl p-5 flex items-center justify-between">
+          <span class="font-display">{c.name}</span>
+          <span class="ref-tag">{c.type}</span>
+        </div>
+      ))}
+    </div>
+    <p class="text-fog text-sm mt-8">
+      Interested in a research partnership? Reach out via <a href="/contact" class="text-teal hover:underline">Contact → Research Collaboration</a>.
+    </p>
+  </section>
+</Layout>

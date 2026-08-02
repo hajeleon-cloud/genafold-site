@@ -1,0 +1,18 @@
+{
+  "eyebrowSuffix": "VIRTUAL SCREENING & LEAD OPTIMIZATION",
+  "pageTitle": "Virtual Screening & Lead Optimization",
+  "metaDescription": "Docking, ADME/Tox filtering, and MD validation in one pipeline.",
+  "heroTitle": "Docking, ADME/Tox filtering, and MD validation in one pipeline.",
+  "heroDescription": "Ultra large scale virtual screening narrowed by physicochemical and ADME/Tox filters, followed by molecular dynamics binding free energy validation, so the hits that reach your bench have already survived a computational stress test.",
+  "capabilities": [
+    "Ultra large scale virtual screening across billion-compound libraries",
+    "Physicochemical and ADME/Tox filtering to cut candidates early",
+    "Molecular dynamics binding free energy validation on surviving hits",
+    "Ranked, defensible shortlists ready for bench follow-up"
+  ],
+  "relatedText": "Screening pipelines run on the same cloud infrastructure as our other compute heavy workloads.",
+  "relatedLinks": [
+    { "text": "Cloud & Compute Infrastructure", "href": "/solutions/cloud-compute-infrastructure" },
+    { "text": "Start a conversation", "href": "/contact" }
+  ]
+}

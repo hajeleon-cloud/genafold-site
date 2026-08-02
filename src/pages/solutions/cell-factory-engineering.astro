@@ -1,0 +1,34 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import PageHero from "../../components/PageHero.astro";
+import content from "../../content/solutions-pages/cell-factory-engineering.json";
+---
+
+<Layout title={content.pageTitle} description={content.metaDescription}>
+  <PageHero
+    eyebrow={`SOLUTIONS · ${content.eyebrowSuffix}`}
+    title={content.heroTitle}
+    description={content.heroDescription}
+  />
+  <section class="mx-auto max-w-6xl px-5 md:px-8 pb-20 grid md:grid-cols-2 gap-10">
+    <div>
+      <h2 class="font-display text-xl mb-4">What's included</h2>
+      <ul class="space-y-3">
+        {content.capabilities.map((c) => (
+          <li class="flex gap-3 text-fog text-sm leading-relaxed">
+            <span class="text-teal mt-1">–</span>{c}
+          </li>
+        ))}
+      </ul>
+    </div>
+    <div class="panel rounded-xl p-6">
+      <p class="ref-tag mb-3">RELATED</p>
+      <p class="text-fog text-sm leading-relaxed mb-4">{content.relatedText}</p>
+      <div class="flex flex-col gap-2 text-sm">
+        {content.relatedLinks.map((l) => (
+          <a href={l.href} class="text-teal hover:underline">{l.text} →</a>
+        ))}
+      </div>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,1 @@
+{{name}} builds the AI platforms, protein and enzyme design pipelines, and bioinformatics infrastructure that turn raw biological data genomic, structural, and chemical into decisions a team can stand behind: which target to pursue, which biomarker to trust, which protein or enzyme to design, which strain to scale.

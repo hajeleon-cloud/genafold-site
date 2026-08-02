@@ -1,0 +1,18 @@
+{
+  "eyebrowSuffix": "DISEASE TARGET & BIOMARKER DISCOVERY",
+  "pageTitle": "Disease Target & Biomarker Discovery",
+  "metaDescription": "Turn multi-omics signal into targets and biomarkers you can defend.",
+  "heroTitle": "Turn multi-omics signal into targets and biomarkers you can defend.",
+  "heroDescription": "We combine variant effect models, regulatory and epigenomic predictors, and protein interaction network mapping to identify disease targets and biomarkers with real mechanistic and genetic support not just statistical correlation. Outputs are built to survive scrutiny in a grant review, a partnering discussion, or a diagnostic submission.",
+  "capabilities": [
+    "Multi-omics integration across genomic, transcriptomic, and proteomic data",
+    "Protein-interaction network mapping to support mechanistic hypotheses",
+    "Regulatory and epigenomic predictors for non-coding variant interpretation",
+    "Biomarker panels validated against curated clinical and experimental datasets"
+  ],
+  "relatedText": "Target and biomarker work often leads directly into protein or enzyme design.",
+  "relatedLinks": [
+    { "text": "Protein & Enzyme Design", "href": "/solutions/protein-enzyme-design" },
+    { "text": "Start a conversation", "href": "/contact" }
+  ]
+}

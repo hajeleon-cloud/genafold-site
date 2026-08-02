@@ -1,0 +1,22 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import PageHero from "../../components/PageHero.astro";
+import content from "../../content/services-pages/pipeline-development.json";
+---
+
+<Layout title={content.pageTitle} description={content.metaDescription}>
+  <PageHero
+    eyebrow="SERVICES · PIPELINE DEVELOPMENT"
+    title={content.heroTitle}
+    description={content.heroDescription}
+  />
+  <section class="mx-auto max-w-6xl px-5 md:px-8 pb-20">
+    <ul class="space-y-3 max-w-2xl">
+      {content.capabilities.map((c) => (
+        <li class="flex gap-3 text-fog text-sm leading-relaxed">
+          <span class="text-teal mt-1">–</span>{c}
+        </li>
+      ))}
+    </ul>
+  </section>
+</Layout>

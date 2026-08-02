@@ -1,0 +1,18 @@
+{
+  "eyebrowSuffix": "CLOUD & COMPUTE INFRASTRUCTURE",
+  "pageTitle": "Cloud & Compute Infrastructure",
+  "metaDescription": "Infrastructure that scales with the screen, not the calendar.",
+  "heroTitle": "Infrastructure that scales with the screen, not the calendar.",
+  "heroDescription": "Discovery and engineering workloads are bursty a billion compound screen one month, a batch of strain design simulations the next. We build cloud infrastructure that matches that pattern instead of fighting it.",
+  "capabilities": [
+    "Auto-scaling compute pools tuned for screening, simulation, and ML workloads",
+    "Storage lifecycle policies across raw, intermediate, and archival tiers",
+    "Cost visibility broken down by project, program, or grant",
+    "Runs inside your own cloud account your data stays under your control"
+  ],
+  "relatedText": "Cloud infrastructure is typically set up as part of a Pipeline Development engagement.",
+  "relatedLinks": [
+    { "text": "Pipeline Development service", "href": "/services/pipeline-development" },
+    { "text": "Start a conversation", "href": "/contact" }
+  ]
+}

@@ -1,0 +1,1 @@
+We aim to be useful before, during, and well after a discovery pipeline goes live not just for the initial build.

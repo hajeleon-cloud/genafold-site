@@ -1,0 +1,12 @@
+{
+  "pageTitle": "Pipeline Development",
+  "metaDescription": "We build and maintain the analysis pipeline itself.",
+  "heroTitle": "From a folder of scripts to a pipeline you can defend.",
+  "heroDescription": "Many discovery and engineering pipelines start as one scientist's personal scripts. We turn that into something the whole team can run, extend, and defend in diligence.",
+  "capabilities": [
+    "Design and build of a full analysis pipeline, from ingestion to report",
+    "Migration from notebooks or scripts to a maintainable, versioned pipeline",
+    "Ongoing maintenance as dependencies, reference data, and requirements shift",
+    "Documentation your team can use to run and extend it without us"
+  ]
+}

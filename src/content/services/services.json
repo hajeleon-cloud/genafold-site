@@ -1,0 +1,6 @@
+[
+  { "title": "Consulting", "description": "Scoping and architecture guidance before you commit to a build.", "href": "/services/consulting", "icon": "chat" },
+  { "title": "Training", "description": "Hands-on sessions to get your team fluent in the tools you're running.", "href": "/services/training", "icon": "graduation" },
+  { "title": "Pipeline Development", "description": "We build and maintain the analysis pipeline itself.", "href": "/services/pipeline-development", "icon": "pipeline" },
+  { "title": "Custom AI", "description": "Model development for a specific prediction or design problem.", "href": "/services/custom-ai", "icon": "brain" }
+]

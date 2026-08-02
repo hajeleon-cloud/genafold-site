@@ -1,0 +1,5 @@
+[
+  { "id": "research", "title": "Research Collaboration", "text": "For academic partnerships, joint publications, or access requests to tools in beta.", "emailKey": "research" },
+  { "id": "commercial", "title": "Commercial Inquiries", "text": "For platform demos, pricing, and partnership or procurement questions.", "emailKey": "commercial" },
+  { "id": "support", "title": "Support", "text": "For existing customers with a technical issue or account question.", "emailKey": "support" }
+]

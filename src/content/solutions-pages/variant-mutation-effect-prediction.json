@@ -1,0 +1,18 @@
+{
+  "eyebrowSuffix": "VARIANT & MUTATION-EFFECT PREDICTION",
+  "pageTitle": "Variant & Mutation-Effect Prediction",
+  "metaDescription": "Know which mutations matter before you run the assay.",
+  "heroTitle": "Know which mutations matter before you run the assay.",
+  "heroDescription": "Pathogenicity, developability, and stability prediction for disease associated variants and engineered sequences alike designed proteins, enzymes, and production strains included benchmarked against curated experimental ground truth, not just published accuracy numbers.",
+  "capabilities": [
+    "Pathogenicity prediction for disease-associated genetic variants",
+    "Developability and stability scoring for designed proteins and enzymes",
+    "Benchmarking against curated experimental ground truth, not just published metrics",
+    "Applicable across variant interpretation and engineered sequence QC alike"
+  ],
+  "relatedText": "Variant-effect predictions inform target discovery work upstream and design QC downstream.",
+  "relatedLinks": [
+    { "text": "Disease Target & Biomarker Discovery", "href": "/solutions/disease-target-biomarker-discovery" },
+    { "text": "Start a conversation", "href": "/contact" }
+  ]
+}

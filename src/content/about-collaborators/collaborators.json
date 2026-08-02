@@ -1,0 +1,8 @@
+[
+  { "name": "University Genomics Consortium", "type": "Academic" },
+  { "name": "Regional Cancer Research Network", "type": "Clinical" },
+  { "name": "Open Proteomics Initiative", "type": "Nonprofit" },
+  { "name": "National Sequencing Core", "type": "Government" },
+  { "name": "Applied Structural Biology Lab", "type": "Academic" },
+  { "name": "BioCloud Alliance", "type": "Industry" }
+]

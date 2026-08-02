@@ -1,0 +1,40 @@
+---
+const stats = [
+  { label: "SEQ THROUGHPUT", value: "1.24M", unit: "reads/s" },
+  { label: "MODEL ACCURACY", value: "98.7", unit: "%" },
+  { label: "P50 LATENCY", value: "42", unit: "ms" },
+  { label: "UPTIME (90D)", value: "99.98", unit: "%" },
+];
+---
+
+<!-- Reversed (navy) panel: a deliberate mix against the page's white sections -->
+<div class="bg-paper text-ink rounded-xl px-6 py-5 font-mono text-xs">
+  <div class="flex items-center gap-2 mb-4 text-ink/60">
+    <span class="h-1.5 w-1.5 rounded-full bg-teal" id="pulse-dot"></span>
+    <span class="uppercase tracking-wider">live · aggregate platform metrics</span>
+  </div>
+  <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
+    {stats.map((s) => (
+      <div>
+        <p class="text-ink/60 uppercase tracking-wide mb-1">{s.label}</p>
+        <p class="text-ink text-lg">
+          <span class="text-teal">{s.value}</span>
+          <span class="text-ink/50 text-xs ml-1">{s.unit}</span>
+        </p>
+      </div>
+    ))}
+  </div>
+</div>
+
+<style>
+  #pulse-dot {
+    animation: pulse 2s ease-in-out infinite;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    #pulse-dot { animation: none; }
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+  }
+</style>

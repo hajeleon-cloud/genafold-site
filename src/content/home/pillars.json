@@ -1,0 +1,5 @@
+[
+  { "title": "Disease Target & Biomarker Discovery", "description": "Turn multi-omics signal into targets and biomarkers you can defend.", "href": "/solutions/disease-target-biomarker-discovery", "icon": "network" },
+  { "title": "Protein & Enzyme Design", "description": "From structure prediction to designed binders and biocatalysts.", "href": "/solutions/protein-enzyme-design", "icon": "molecule" },
+  { "title": "Cell Factory Engineering", "description": "AI-guided strain and pathway design for production you can scale.", "href": "/solutions/cell-factory-engineering", "icon": "flask" }
+]

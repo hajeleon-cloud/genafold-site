@@ -1,0 +1,18 @@
+{
+  "eyebrowSuffix": "CELL FACTORY ENGINEERING",
+  "pageTitle": "Cell Factory Engineering",
+  "metaDescription": "AI-guided strain and pathway design for production you can scale.",
+  "heroTitle": "AI-guided strain and pathway design for production you can scale.",
+  "heroDescription": "We apply generative and predictive models to metabolic pathway design, strain optimization, and host engineering helping teams re-engineer microbial or cell-line factories for higher titers, novel products, or more sustainable bioprocesses, with in silico screening before committing to a fermentation run.",
+  "capabilities": [
+    "Metabolic pathway design and flux modeling for target products",
+    "Strain optimization for titer, yield, and process robustness",
+    "Host engineering across common industrial and cell-line chassis",
+    "In silico screening to prioritize designs before fermentation runs"
+  ],
+  "relatedText": "Strain and pathway designs are typically validated with variant and mutation-effect prediction.",
+  "relatedLinks": [
+    { "text": "Variant & Mutation-Effect Prediction", "href": "/solutions/variant-mutation-effect-prediction" },
+    { "text": "Start a conversation", "href": "/contact" }
+  ]
+}

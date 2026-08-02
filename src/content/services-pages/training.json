@@ -1,0 +1,20 @@
+{
+  "pageTitle": "Training",
+  "metaDescription": "Hands-on sessions to get your team fluent in the tools you're running.",
+  "heroTitle": "Training that outlasts the session.",
+  "heroDescription": "We teach on your actual targets, sequences, strains, and data \u2014 not a generic sandbox \u2014 so what your team learns transfers directly to their programs.",
+  "formats": [
+    {
+      "title": "Team workshops",
+      "text": "Half or full-day sessions run with your team, on your own data."
+    },
+    {
+      "title": "Onboarding",
+      "text": "Structured ramp-up for new team members joining an existing pipeline."
+    },
+    {
+      "title": "Ongoing office hours",
+      "text": "Recurring sessions for questions that come up after initial training."
+    }
+  ]
+}

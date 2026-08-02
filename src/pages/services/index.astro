@@ -1,0 +1,21 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import PageHero from "../../components/PageHero.astro";
+import Card from "../../components/Card.astro";
+
+import heroDescription from "../../content/services/hero-description.txt?raw";
+import services from "../../content/services/services.json";
+---
+
+<Layout title="Services" description="How we work with teams from first conversation to production.">
+  <PageHero
+    eyebrow="SERVICES"
+    title="Engagements that stay past the first deployment."
+    description={heroDescription.trim()}
+  />
+  <section class="mx-auto max-w-6xl px-5 md:px-8 pb-20">
+    <div class="grid md:grid-cols-2 gap-5">
+      {services.map((s) => <Card {...s} />)}
+    </div>
+  </section>
+</Layout>

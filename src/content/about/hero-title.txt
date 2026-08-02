@@ -1,0 +1,1 @@
+Why {{name}} exists, and what we're building toward.

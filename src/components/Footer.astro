@@ -1,0 +1,40 @@
+---
+import { site, nav } from "../config/site";
+const year = new Date().getFullYear();
+const sections = nav.filter((item) => item.children);
+---
+
+<footer class="bg-paper text-ink mt-24">
+  <div class="mx-auto max-w-5xl px-5 md:px-8 py-16 text-center">
+    <a href="/" class="inline-flex items-center gap-2 mb-3">
+      <img src="/logo-dark.png" alt={site.name} class="h-10 w-auto" />
+    </a>
+    <p class="font-mono text-xs uppercase tracking-wider text-teal mb-14">{site.shortTagline}</p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-10 sm:gap-8 justify-items-center">
+      {sections.map((item) => (
+        <div class="text-center">
+          <p class="ref-tag mb-4">{item.label}</p>
+          <ul class="flex flex-col gap-2 items-center">
+            {item.children!.map((child) => (
+              <li>
+                <a href={child.href} class="text-sm text-ink/70 hover:text-teal">{child.label}</a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+
+    <div class="h-px my-12 bg-white/10"></div>
+
+    <div class="flex flex-col items-center gap-4 text-sm text-ink/60">
+      <div class="flex gap-6 font-mono text-xs uppercase tracking-wide">
+        <a href={site.github} class="hover:text-teal">GitHub</a>
+        <a href="/contact" class="hover:text-teal">Contact</a>
+        <a href={`mailto:${site.email.support}`} class="hover:text-teal">Support</a>
+      </div>
+      <p>© {year} {site.name}. All rights reserved.</p>
+    </div>
+  </div>
+</footer>

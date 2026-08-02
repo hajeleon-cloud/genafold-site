@@ -1,0 +1,22 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import PageHero from "../../components/PageHero.astro";
+import Card from "../../components/Card.astro";
+import { site } from "../../config/site";
+
+import heroDescription from "../../content/solutions/hero-description.txt?raw";
+import solutions from "../../content/solutions/solutions.json";
+---
+
+<Layout title="Solutions" description={`How ${site.name}'s AI infrastructure maps to biological discovery and engineering problems.`}>
+  <PageHero
+    eyebrow="SOLUTIONS"
+    title="AI infrastructure matched to how biological discovery and engineering actually run."
+    description={heroDescription.trim()}
+  />
+  <section class="mx-auto max-w-6xl px-5 md:px-8 pb-20">
+    <div class="grid md:grid-cols-2 gap-5">
+      {solutions.map((s) => <Card {...s} />)}
+    </div>
+  </section>
+</Layout>

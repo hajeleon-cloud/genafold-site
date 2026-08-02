@@ -1,0 +1,28 @@
+---
+interface Item {
+  title: string;
+  meta: string;
+  href?: string;
+}
+interface Props {
+  items: Item[];
+}
+const { items } = Astro.props;
+---
+
+<div class="divide-y divide-line border-y border-line">
+  {items.map((item) => {
+    const Tag = item.href ? "a" : "div";
+    return (
+      <Tag
+        href={item.href}
+        class="group flex flex-col md:flex-row md:items-center gap-2 md:gap-6 py-5 hover:bg-panel/60 px-2 -mx-2 rounded transition-colors"
+      >
+        <span class="font-display text-base text-paper group-hover:text-teal transition-colors flex-1">
+          {item.title}
+        </span>
+        <span class="text-sm text-fog font-mono">{item.meta}</span>
+      </Tag>
+    );
+  })}
+</div>

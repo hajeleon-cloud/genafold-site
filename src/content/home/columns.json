@@ -1,0 +1,5 @@
+[
+  { "title": "Grounded in real science", "description": "Every tool is built alongside domain scientists, not designed in isolation from the labs that depend on it.", "linkText": "Visit About", "href": "/about" },
+  { "title": "From pilot to production", "description": "Consulting, training, and pipeline development teams that stay engaged past the first deployment, not just the sales cycle.", "linkText": "Visit Services", "href": "/services" },
+  { "title": "Let's talk about your data", "description": "Whether it's a research collaboration or a commercial deployment, tell us what you're trying to solve.", "linkText": "Visit Contact", "href": "/contact" }
+]
