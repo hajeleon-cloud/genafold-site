@@ -16,7 +16,7 @@ const tracks = tracksData.map((t) => ({
   <PageHero
     eyebrow="CONTACT"
     title="Tell us what you're trying to discover."
-    
+    description={heroDescription.trim()}
   />
 
   <section class="mx-auto max-w-6xl px-5 md:px-8 pb-24">
@@ -27,7 +27,7 @@ const tracks = tracksData.map((t) => ({
           <div id={t.id} class="panel rounded-xl p-6 scroll-mt-24">
             <h3 class="font-display text-lg mb-2">{t.title}</h3>
             <p class="text-fog text-sm leading-relaxed mb-4">{t.text}</p>
-            <a href={`mailto:${t.email}`} class="text-teal text-sm hover:underline font-mono">{t.email}</a>
+            
           </div>
         ))}
       </div>
