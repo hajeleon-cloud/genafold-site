@@ -8,13 +8,13 @@ export const site = {
   name: "Genafold Scientific Computing ",
   shortTagline: "AI · Bioinformatics · Discovery",
   tagline: "AI infrastructure for target discovery, protein and enzyme design, and engineered biology.",
-  description:
-    "Genafold builds AI platforms and computational pipelines for disease target and biomarker discovery, protein and enzyme design, cell factory engineering, and drug discovery.",
-  email: {
-    research: "research@genafold.example",
-    commercial: "partnerships@genafold.example",
-    support: "support@genafold.example",
-  },
+  //description:
+  //  "Genafold builds AI platforms and computational pipelines for disease target and biomarker discovery, protein and enzyme design, cell factory engineering, and drug discovery.",
+ // email: {
+ //   research: "research@genafold.example",
+ //   commercial: "partnerships@genafold.example",
+ //   support: "support@genafold.example",
+ // },
   github: "https://github.com/genafold",
 };
 
