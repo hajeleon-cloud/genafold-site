@@ -5,11 +5,11 @@
 // ─────────────────────────────────────────────────────────────
 
 export const site = {
-  name: "Genafold Scientific Computing ",
+  name: "Atlas Scientific Computing ",
   shortTagline: "AI · Bioinformatics · Discovery",
   tagline: "AI infrastructure for target discovery, protein and enzyme design, and engineered biology.",
   description:
-    "Genafold builds AI platforms and computational pipelines for disease target and biomarker discovery, protein and enzyme design, cell factory engineering, and drug discovery.",
+    "Atlas Scientific Computing builds AI platforms and computational pipelines for disease target and biomarker discovery, protein and enzyme design, cell factory engineering, and drug discovery.",
   email: {
     research: "research@genafold.ca",
     commercial: "partnerships@genafold.ca",
