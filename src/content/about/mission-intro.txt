@@ -1,1 +1,1 @@
-{{name}} builds the software layer between an AI prediction and a decision your program can defend whether that's an IND filing, a novel biomarker panel, a designed enzyme, or a re-engineered production strain.
+Atlas Scientific Computing builds the software layer between an AI prediction and a decision your program can defend whether that's an IND filing, a novel biomarker panel, a designed enzyme, or a re-engineered production strain.
