@@ -11,9 +11,9 @@ export const site = {
   description:
     "Atlas Scientific Computing builds AI platforms and computational pipelines for disease target and biomarker discovery, protein and enzyme design, cell factory engineering, and drug discovery.",
   email: {
-    research: "research@genafold.ca",
-    commercial: "partnerships@genafold.ca",
-    support: "support@genafold.ca",
+    research: "research@altascientific.ca",
+    commercial: "partnerships@altascientific.ca",
+    support: "support@altascientific.ca",
   },
   github: "https://github.com/genafold",
 };
